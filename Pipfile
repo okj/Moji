@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+"discord.py" = "*"
+python-dotenv = "*"
+tinydb = "*"
+requests = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+dev = "nodemon --exec python bot.py --ignore 'database/*'"
+bot = "python3 bot.py"
