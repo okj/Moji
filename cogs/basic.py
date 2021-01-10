@@ -41,7 +41,7 @@ class BasicCog(commands.Cog):
 
     @commands.command()
     async def invite(self, ctx):
-        await ctx.channel.send("https://discord.com/oauth2/authorize?client_id=797227268228644874&scope=bot&permissions=1342565456", delete_after=15.0)
+        await ctx.channel.send("<https://discord.com/oauth2/authorize?client_id=797227268228644874&scope=bot&permissions=1342565456>", delete_after=15.0)
         await ctx.message.delete(delay=15.0)
 
     @commands.command(aliases=['discord'])
@@ -51,7 +51,7 @@ class BasicCog(commands.Cog):
     
     @commands.command(aliases=['code'])
     async def repo(self, ctx):
-        await ctx.channel.send("", delete_after=15.0)
+        await ctx.channel.send("<https://github.com/okj/Moji>", delete_after=15.0)
         await ctx.message.delete(delay=15.0)
 
 def setup(client):
