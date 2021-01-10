@@ -20,4 +20,5 @@ Lots of features, checks, and balances that have not been implemented yet.
 
 ### Building
 `.env` file containing `BOT_TOKEN=TOKEN`
+
 `pipenv install` 👍
